@@ -1,0 +1,374 @@
+.screen {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.screen .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.screen .gradient-shadow {
+  position: relative;
+  width : 468px;
+  height: 1080px;
+  top: -26px;
+  left: -140px;
+  box-shadow: 0px 4px 140px #3648c540;
+  background-blend-mode: darken;
+  background: linear-gradient(
+    180deg,
+    rgba(54, 195, 250, 1) 0%,
+    rgba(54, 72, 197, 1) 0%,
+    rgba(54, 68, 195, 1) 100%
+  );
+}
+
+.screen .section {
+  display: flex;
+  flex-direction: column;
+  max-width: 784px;
+  width: 784px;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 56px 32px 64px;
+  position: absolute;
+  top: 136px;
+  left: 507px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 35px #29529040;
+}
+
+.screen .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 9px 0px 3px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.screen .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Open Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0.64px;
+  line-height: normal;
+}
+
+.screen .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.screen .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.screen .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1px 0px 2px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.screen .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Times New Roman-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0.26px;
+  line-height: normal;
+}
+
+.screen .container-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.screen .input {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  align-items: flex-start;
+  padding: 12px 13px 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #b4b4b4;
+  box-shadow: inset 0px 0px 1px 1px #00000040;
+}
+
+.screen .container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 2px;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.screen .text-wrapper-3 {
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Arial-Narrow", Helvetica;
+  font-weight: 400;
+  color: #757575;
+  font-size: 14px;
+  letter-spacing: 0;
+  position: relative;
+  line-height: normal;
+}
+
+.screen .button {
+  all: unset;
+  box-sizing: border-box;
+  padding: 12px 15px 13px;
+  display: inline-flex;
+  flex-direction: column;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #107ddb;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #b4b4b4;
+  box-shadow: 0px 0px 1px #00000040;
+}
+
+.screen .text-wrapper-4 {
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.26px;
+  white-space: nowrap;
+  position: relative;
+  line-height: normal;
+}
+
+.screen .margin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.screen .text-wrapper-5 {
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Times New Roman-Regular", Helvetica;
+  font-weight: 400;
+  color: #666666;
+  font-size: 12px;
+  letter-spacing: 0;
+  position: relative;
+  line-height: normal;
+}
+
+.screen .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 15px 13px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #107ddb;
+  box-shadow: 0px 0px 1px #00000040;
+}
+
+.screen .text-wrapper-6 {
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #107ddb;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.26px;
+  white-space: nowrap;
+  position: relative;
+  line-height: normal;
+}
+
+.screen .container-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  align-items: flex-start;
+  padding: 12px 13px 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #b4b4b4;
+  box-shadow: inset 0px 0px 1px 1px #00000040;
+}
+
+.screen .label {
+  height: 18px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.screen .container-4 {
+  height: 15px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.screen .text-wrapper-7 {
+  align-self: stretch;
+  font-family: "Times New Roman-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0.26px;
+  position: relative;
+  line-height: normal;
+}
+
+.screen .margin-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.screen .container-5 {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.screen .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  min-width: 120px;
+  padding: 12px 46.74px 13px 46.73px;
+  display: inline-flex;
+  flex-direction: column;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #107ddb;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #b4b4b4;
+  box-shadow: 0px 0px 1px #00000040;
+}
+
+.screen .status-margin {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 28px;
+}
+
+
+/* input 기본 */
+.container-3 input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font: 400 14px "Arial-Narrow", Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+.container-3 input::placeholder { color: #757575; }
+
+/* 비밀번호 보기 버튼 위치(기존 클래스 재사용) */
+.container-2 { position: relative; }
+#togglePw {
+  position: relative; /* 이미 라인에 배치됨 */
+}
+
+/* 에러/성공 메시지 */
+#statusArea { font-size: 12px; color: #d93025; }
+#statusArea.ok { color: #137333; }
+
+.gradient-shadow .timeattack-logo {
+  position: absolute;
+  width: 245px;  /* 크기(원하면 150~180px 사이로 조절) */
+  height: auto;  /* 비율 유지 */
+  top: 100px;
+  left: 183px;
+  object-fit: cover;
+}

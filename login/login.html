@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="login_globals.css" />
+    <link rel="stylesheet" href="login_style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="div">
+        <div class="gradient-shadow">
+          <!-- 로고 영역 -->
+          <div class="group">
+            <div class="overlap-group">
+              <img class="timeattack-logo" src="img/timeattack-logo.png" alt="Time Attack Logo" />
+            </div>
+          </div>
+        </div>
+
+        <div class="background-shadow">
+          
+
+          <div class="heading-time-ttack">Time ∆ttack</div>
+
+          <!-- form 시작 -->
+          <form id="loginForm" novalidate>
+            <!-- ID -->
+            <div class="container">
+              <label class="label-ID" for="user_id">ID</label>
+
+              <div class="overlay-border">
+                <div class="input">
+                  <!-- 기존 div placeholder 대신 실제 input -->
+                  <input
+                    id="user_id"
+                    name="user_id"
+                    type="text"
+                    autocomplete="user_id"
+                    placeholder="아이디를 입력하세요"
+                    aria-label="아이디"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Password -->
+            <div class="container-2">
+              <label class="label-password" for="password">Password</label>
+
+              <div class="overlay-border-2">
+                <div class="input" style="position:relative;">
+                  <input
+                    id="password"
+                    name="password"
+                    type="password"
+                    autocomplete="current-password"
+                    placeholder="비밀번호를 입력하세요"
+                    aria-label="비밀번호"
+                  />
+                  <!-- 비밀번호 표시/숨김 토글 버튼 -->
+                  <button type="button" class="button" id="togglePw" aria-label="비밀번호 표시 전환">
+                    <div class="text-wrapper-2">보기</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- 로그인 버튼 -->
+            <button type="submit" class="container-wrapper" id="loginBtn">
+              <div class="container-4"><div class="text-wrapper-4">로그인</div></div>
+            </button>
+
+            <!-- 회원가입 링크 -->
+            <div class="container-3">
+              <p class="i-don-t-have-an">I don’t have an account ?</p>
+              <a class="link" id="signupLink" href="/register/register.html" role="link" tabindex="0">
+                <div class="text-wrapper-3">Sign up</div>
+              </a>
+            </div>
+          </form>
+          <!-- form 끝 -->
+        </div>
+      </div>
+    </div>
+
+    <script src="login_app.js"></script>
+  </body>
+</html>
